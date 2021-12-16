@@ -1,0 +1,17 @@
+div{
+    width: 50%;
+    border: solid 2px  red;
+}
+#h1color{
+    color: blue;
+}
+.redcolor{
+    color: red!important;;
+}
+
+.h1size{
+    font-size: 50px;
+}
+h1{
+    color:green!important;
+}
