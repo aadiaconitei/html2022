@@ -68,3 +68,79 @@ body {
   #section-a .content-wrap {
     padding: 0 1.5em;
   }
+
+
+  
+  /* Section A */
+  #section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+  }
+  /* Section B */
+  #section-b {
+    padding: 2em 1em 1em;
+  }
+  #section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+    width: 33%;
+    float: left;
+  }
+  #section-b li  img{
+      min-height: 350px;
+  }
+  .card-content {
+    padding: 1.5em;
+  }
+  /* Section C */
+  #section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em;
+  }
+  
+  /* Section D / Boxes */
+
+  #section-d .box {
+    padding: 2em;
+    color: #fff;
+  }
+
+  #section-d .box:first-child {
+    background: #2690d4;
+  }
+
+  
+  /* Footer */
+
+  #main-footer {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+  }
+
+  #main-footer a {
+    color: #2690d4;
+    text-decoration: none;
+  }
+
+  /* Meniu */
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 7px;
+  }
+  nav ul li a{
+    color: #ffffff;
+  }
+
+
+  
