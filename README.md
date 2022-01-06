@@ -7,3 +7,5 @@ https://css-tricks.com/vs-code-extensions-for-html/
 https://www.hongkiat.com/blog/funny-css-puns/
 
 https://i.redd.it/3rzo2tatfns21.png
+
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-area
