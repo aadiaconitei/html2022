@@ -1,4 +1,17 @@
 /* Core Styles */
+@font-face {
+  font-family: 'Moon Dance';
+  src: url('../fonts/MoonDance-Regular.eot');
+  src: local('Moon Dance Regular'), local('MoonDance-Regular'),
+      url('../fonts/MoonDance-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MoonDance-Regular.woff2') format('woff2'),
+      url('../fonts/MoonDance-Regular.woff') format('woff'),
+      url('../fonts/MoonDance-Regular.ttf') format('truetype'),
+      url('../fonts/MoonDance-Regular.svg#MoonDance-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
     margin: 0 0 0 0;
@@ -133,6 +146,7 @@ body {
   }
 
   /* Meniu */
+  
   nav ul li{
     display: inline-block;
     list-style: none;
@@ -140,8 +154,12 @@ body {
   }
   nav ul li a{
     color: #ffffff;
+    font-family: 'Moon Dance', cursive;
+    font-size: 24px;
   }
-
+  nav ul li a.active{
+    color: red;
+  }
 
 
 
