@@ -1,0 +1,128 @@
+table, table td {padding:0;border:none;border-collapse:collapse;}
+table{
+width: 100%;
+}
+
+#tbl_1 th h1 {
+font-weight: bold;
+font-size: 1em;
+text-align: left;
+color: #ffffff;
+}
+
+#tbl_1 td {
+font-weight: normal;
+font-size: 1em;
+-webkit-box-shadow: 0 2px 2px -2px #0E1119;
+-moz-box-shadow: 0 2px 2px -2px #0E1119;
+box-shadow: 0 2px 2px -2px #0E1119;
+color: #ffffff;
+}
+
+#tbl_1 {
+text-align: left;
+overflow: hidden;
+width: 80%;
+margin: 0 auto;
+display: table;
+padding: 0 0 8em 0;
+}
+
+#tbl_1 td, #tbl_1 th {
+padding-bottom: 2%;
+padding-top: 2%;
+padding-left:2%;
+}
+
+/* Background-color of the odd rows */
+#tbl_1 tr:nth-child(odd) {
+background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+#tbl_1 tr:nth-child(even) {
+background-color: #2C3446;
+}
+
+#tbl_1 th {
+background-color: #284554;
+}
+
+#tbl_1 td:first-child { color: #FB667A; }
+
+#tbl_1 tr:hover {
+background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+-moz-box-shadow: 0 6px 6px -6px #0E1119;
+box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+#tbl_1 td:hover {
+background-color: #284554;
+color: #ffffff;
+font-weight: bold;
+box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+transform: translate3d(6px, -6px, 0);
+transition-delay: 0s;
+transition-duration: 0.4s;
+transition-property: all;
+transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+#tbl_1 td:nth-child(4),
+#tbl_1 th:nth-child(4) { display: none; }
+}
+
+table#tbl_2 {
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    background: #fff;
+}
+table#tbl_2 td, table#tbl_2 th {
+    padding: 0.75em 1.5em;
+    text-align: left;
+}
+
+table#tbl_2 th {
+    background-color: #31bc86;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+table#tbl_2 tbody th {
+    background-color: #2ea879;
+}
+table#tbl_2 tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+table#tbl_2 tbody tr:hover {
+    background-color: rgba(129,208,177,.3);
+}
+
+@media (max-width: 800px) {
+    #tbl_2 td:nth-child(3),
+    #tbl_2 th:nth-child(3) { display: none; }
+}
+
+table#tbl_3 {
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    width: 100%;
+    background: #cdcdcd;
+
+}
+
+table#tbl_3  tr td {
+    padding: 0.75em 1.5em;
+    text-align: center;
+    border: solid 2px #284554;
+}
+table#tbl_3 thead tr{
+border: solid 2px #FF5972;
+}
+table#tbl_3  tfoot tr td{
+   text-align: left;
+   font-weight: bold;
+}
