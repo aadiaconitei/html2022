@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            counter-reset: t;
+            
+        }
+        h1{
+            text-align:center ;
+            counter-reset: st;
+        }
+        h1::before {
+            counter-increment: t;
+            content:  counter(t) " ----- ";
+        }
+        h3::before {
+            counter-increment: st;
+            content:  counter(t) "."counter(st) " ----- ";
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Titlul </h1>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h1>Titlul </h1>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h1>Titlul </h1>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h1>Titlul </h1>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h1>Titlul </h1>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h1>Titlul </h1>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+    <h3>Subtitlul</h3>
+</body>
+
+</html>

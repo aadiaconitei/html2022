@@ -1,0 +1,40 @@
+nav{
+    background-color: brown;
+    height: 50px;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 15px 25px;
+}
+nav ul li.activ, nav ul li:hover{
+    background-color: red;
+    
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Moon Dance', cursive;
+}
+.submeniu{
+    display: none;
+    margin-left: -25px;
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+.submeniu li{
+    display: list-item;
+    text-decoration: none;
+    list-style: none;
+   
+}
+nav ul li:hover .submeniu{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background-color: brown;
+}

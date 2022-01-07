@@ -1,0 +1,16 @@
+section{
+    border:solid 2px  red;
+}
+
+.stanga{
+    width: 60%;
+    border: solid 2px blue;
+    float: left;
+}
+.dreapta{
+    width: 35%;
+    border: solid 2px green;
+    margin-left: 20px;
+    float: left;
+
+}
