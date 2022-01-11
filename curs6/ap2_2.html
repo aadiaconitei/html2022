@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ap2_2 Curs 6</title>
+</head>
+<body>
+    <h1>Formular Contact</h1>
+
+    <form action="">
+        <label for="nume"> Nume</label>
+        <input type="text" name="nume" id="nume"> 
+        <br>
+        <label for="mesaj"> Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10" maxlength="160"></textarea>
+        <br>
+        <label for="categorie"> Categorie mesaj</label>
+        <select name="categorie" id="categorie">
+            <option value="0"> Selecteaza ...</option>
+            <option value="1"> Suport</option>
+            <option value="2" selected> Vanzari</option>
+            <option value="3"> Retur comenzi</option>
+        </select>
+        <br>
+
+        <label for="produse"> Categorie produse</label>
+        <select name="produse" id="produse"  multiple>
+            <option value="televizor"> Televizor</option>
+            <option value="tableta"> Tableta</option>
+            <option value="telefon"> Telefon</option>
+
+        </select>
+        <br>
+        <input type="submit" value="Timite datele">
+    </form>
+</body>
+</html>
