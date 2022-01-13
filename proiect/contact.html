@@ -16,14 +16,14 @@
 
 <body>
 
-    <!-- Header Showcase -->
+    <!-- Meniu -->
     <nav>
         <ul>
-            <li><a class="active" href="acasa.html">Acasa</a></li>
+            <li><a href="acasa.html">Acasa</a></li>
             <li><a href="portofoliu.html">Portofoliu</a></li>
             <li><a href="despre.html">Despre noi</a></li>
             <li><a href="blog.html">Blog </a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -32,11 +32,47 @@
         <!-- Section A -->
         <section id="section-a" class="grid">
             <div class="content-wrap">
-                 <h1> Formular contact</h1>
+                <h1> Formular contact</h1>
 
-                 <form action="">
-
-                 </form>
+                <form  id="formjob" action="">
+                    <div>
+                        <label for="nume"> Nume:</label>
+                        <input type="text" name="nume" id="nume">
+                    </div>
+                    <div>
+                        <label for="prenume"> Prenume:</label>
+                        <input type="text" name="prenume" id="prenume">
+                    </div>
+                    <div>
+                        <label for="">Sex</label>
+                        <input type="radio" name="sex" id="m"> M 
+                        <input type="radio" name="sex" id="f"> F 
+                        <input type="radio" name="sex" id="n"> N
+                    </div>
+                    <div>
+                        <label for="job"> Tip job dorit</label>
+                        <input type="checkbox" name="full" id="full"> Full-time 
+                        <input type="checkbox" name="part" id="part"> Part-time
+                    </div>
+                    <div>
+                        <label for="oras"> Orasul unde doriti noul job:</label>
+                        <select name="oras" id="oras">
+                            <option value="0"> Selecteaza...</option>
+                            <option value="bucuresti"> Bucuresti</option>
+                            <option value="iasi">Iasi</option>
+                            <option value="brasov"> Brasov</option>
+                            <option value="cluj">Cluj</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mesaj"> Mesaj</label>
+                        <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input class="bt" type="reset" value="Anuleaza">
+                        <input class="bt" type="submit" value="Trimite datele">
+                    </div>
+                </form>
             </div>
         </section>
     </main>

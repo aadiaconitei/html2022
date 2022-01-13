@@ -240,4 +240,27 @@ body {
     }
   }
 
+
+  /* Formular */
+  #formjob > div{
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: left;
+    padding: 10px 0px;
+
+  }
+  #formjob label {
+    display: inline-block;
+    width: 20%;
+
+  }
+  #formjob .bt{
+    padding: 20px 30px;
+    background-color: red;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+  }
   
