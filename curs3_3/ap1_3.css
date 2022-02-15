@@ -1,0 +1,21 @@
+/* h1{
+    color: blue;
+} */
+*{
+
+}
+p, h1{
+    color: red;
+}
+p:hover{
+    color: blue;
+}
+p::first-line{
+    color: aqua;
+}
+p{
+    font-size: 24px;
+}
+h1{
+    font-size: 34px;
+}

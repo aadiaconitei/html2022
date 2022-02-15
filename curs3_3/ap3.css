@@ -1,0 +1,23 @@
+body, html{
+    background-color: rgb(173, 240, 225);
+    font-size: 10px;
+}
+
+div{
+    position: relative;
+    z-index: 1000;
+    border: 5px red solid;
+    margin: 20px ;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 600px;
+    color: rgb(25, 25, 201);
+    text-align: center;
+    float: left;
+    background-color: rgba(211, 132, 29, 0.3);
+    font-size: 16px;
+
+}
+p{
+    font-size: 10px;
+}
