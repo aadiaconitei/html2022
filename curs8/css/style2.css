@@ -1,0 +1,32 @@
+.slider {
+    width: 3200px;/*640 x 5*/
+    height: 320px;
+    position: relative;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    z-index: 5;
+}
+
+.slider li img {
+    float: left;
+}
+
+.slider {
+    animation: slider 10s linear infinite reverse;
+}
+
+
+
+
+@keyframes slider {
+    0% {left: 0;}
+    13% {left: 0;}
+    25% {left: -640px;}
+    38% {left: -640px;}
+    50% {left: -1280px;}
+    63% {left: -1280px;}
+    75% {left: -1920px;}
+	88% {left: -1920px;}
+	100% {left: -2560px;}
+}
